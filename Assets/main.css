@@ -1,5 +1,28 @@
 body {
-  background-color: black;
+  background-color: #70e000;
+  display: flex;
+}
+body #quote-box {
+  height: 150px;
+  width: 50%;
+  background-color: white;
+}
+body #quote-box #text {
+  font-size: 3.5rem;
+  text-align: center;
+}
+body #quote-box #author {
+  text-align: end;
+  margin: 10px 10px;
+}
+body #quote-box .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+body #quote-box .buttons button {
+  color: white;
+  background-color: #70e000;
+  margin: 0px 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,45 @@
-$color: black;
+$colors: (
+    color1: #f72585,
+    color2: #7209b7,
+    color3: #3a0ca3,
+    color4: #4361ee,
+    color5: #4cc9f0,
+    color6: #590d22,
+    color7: #132a13,
+    color8: #ffba08,
+    color9: #f77f00,
+    color10: #70e000
+);
+$temp-color: #70e000;
 
-body{
-    background-color: $color;
+body {
+    background-color: $temp-color;
+    display: flex;
+
+    #quote-box {
+        height: 150px;
+        width: 50%;
+        background-color: white;
+
+        #text {
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        #author {
+            text-align: end;
+            margin: 10px 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                color: white;
+                background-color: $temp-color;
+                margin: 0px 10px;
+            }
+        }
+    }
 }
